@@ -29,6 +29,8 @@
   <div onclick="login()">login</div>
   <div onclick="trash()">trash</div>
   <div onclick="encrypt()">encrypt</div>
+  <div onclick="setShareData()">setShareData</div>
+  <div onclick="share()">share</div>
 <script>
   function device() {
     window.newsappAPI.device(function (info) {
@@ -64,6 +66,34 @@
     }
     window.newsappAPI.encrypt(JSON.stringify(data), function (trashid) {
       alert(trashid)
+    })
+  }
+  function setShareData() {
+    /*window.newsappAPI.share.setShareData({
+      wxUrl: 'http://c.m.163.com/nc/qa/uncharted/index.html',
+      wxImg: '',
+      wxTitle: '哈哈哈',
+      wxText: '描述啊啊啊啊啊',
+      wbImg: ''
+    })*/
+    /*setTimeout(function () {
+      console.log(2233333)
+      window.newsappAPI.share.setShareData({
+        wxUrl: 'http://t.c.m.163.com/nc/qa/uncharted/index.html',
+        wxImg: '',
+        wxTitle: '哈哈哈2',
+        wxText: '描述啊啊啊啊啊2',
+        wbImg: ''
+      })
+    }, 3000)*/
+  }
+  function share() {
+    window.newsappAPI.share.invokeShare({
+      wxUrl: 'http://c.m.163.com/nc/qa/uncharted/index.html',
+      wxImg: '',
+      wxTitle: '哈哈哈333333',
+      wxText: '描述啊啊啊啊啊33333',
+      wbImg: ''
     })
   }
 </script>
