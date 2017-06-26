@@ -10,8 +10,8 @@ export default {
     babel({
       exclude: ['node_modules/**', 'dist/**']
     }),
-    eslint({
-      exclude: 'node_modules/**'
-    })
+    /*eslint({
+      exclude: 'node_modules/!**'
+    })*/
   ]
 };

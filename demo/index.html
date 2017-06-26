@@ -6,10 +6,67 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <title>客户端接口测试</title>
   <script type="text/javascript" src="./static/newsapp.js"></script>
+  <style>
+    body{
+      padding: 50px 0 0 50px;
+    }
+    div{
+      display: inline-block;
+      width: 150px;
+      height: 40px;
+      margin: 0 50px 20px 0;
+      line-height: 40px;
+      text-align: center;
+      border: 1px solid #000;
+    }
+  </style>
 </head>
 
 <body>
-
+  <div onclick="device()">device</div>
+  <div onclick="downloadImage()">downloadImage</div>
+  <div onclick="userinfo()">userinfo</div>
+  <div onclick="login()">login</div>
+  <div onclick="trash()">trash</div>
+  <div onclick="encrypt()">encrypt</div>
+<script>
+  function device() {
+    window.newsappAPI.device(function (info) {
+      alert(info)
+    })
+  }
+  function downloadImage() {
+    var url = 'http://cms-bucket.nosdn.127.net/4e6098a83e5f4bd7854fd31d2fc1738d20170620100645.jpeg'
+    window.newsappAPI.downloadImage(url, function (imgurl) {
+      alert(imgurl)
+    })
+  }
+  function login() {
+    window.newsappAPI.login(function (info) {
+      alert(info)
+    })
+  }
+  function userinfo() {
+    window.newsappAPI.userinfo(function (info) {
+      alert(info)
+    })
+  }
+  function trash() {
+    window.newsappAPI.trash(function (trashid) {
+      alert(trashid)
+    })
+  }
+  function encrypt() {
+    var data = {
+      a: 1,
+      b: 2,
+      c: 3
+    }
+    window.newsappAPI.encrypt(JSON.stringify(data), function (trashid) {
+      alert(trashid)
+    })
+  }
+</script>
 </body>
 
 </html>
