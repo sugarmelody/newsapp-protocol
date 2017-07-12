@@ -6,9 +6,9 @@ export default {
   dest: 'dist/newsapp.js', // 输出文件
   targets: [
     {
-      //format: 'iife',
-      format: 'umd',
-      moduleName: 'NEWSAPPAPI',
+      format: 'iife',
+      //format: 'umd',
+      moduleName: 'newsappAPI',
       sourceMap: process.env.NODE_ENV === 'production' ? false : 'inline',
     }
   ],
