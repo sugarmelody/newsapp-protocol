@@ -40,6 +40,8 @@
   <div onclick="setting()">获取用户相关设置</div>
   <div onclick="pushview()">跳转到指定界面(优惠券)</div>
   <div onclick="uploadimage()">上传图片</div>
+  <div onclick="alarm()">提醒</div>
+  <div onclick="remind()">多次提醒</div>
 <script>
   function device() {
     window.newsappAPI.device(function (info) {
@@ -139,6 +141,38 @@
   function uploadimage() {
     window.newsappAPI.uploadimage.album('', '', function (url) {
       alert(url)
+    })
+  }
+  function alarm() {
+    window.newsappAPI.alarm({
+      url:'http://163.com',
+      date: '2017-07-12 21:30:00',
+      title: 'ddd',
+      message: 'ddd',
+      type: 'enable',
+    }, function (bool) {
+      alert(bool)
+      window.newsappAPI.alarm({
+        url:'http://163.com',
+        date: '2017-07-12 21:30:00',
+        title: 'ddd2222222',
+        message: 'ddd33333',
+        type: 'add',
+      }, function (bool) {
+        alert(bool)
+      })
+    })
+  }
+  function remind() {
+    window.newsappAPI.remind({
+      id: 'test20170712',
+      url:'http://m.163.com',
+      start: '2017-07-12 18:30:00',
+      end: '2017-07-13 18:30:00',
+      pattern: 'daily',
+      title: 'ddd3333',
+      message: 'ddd333',
+      type: 'add',
     })
   }
 

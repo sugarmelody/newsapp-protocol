@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f5a8ff-bf9e-48c5-b74c-a7c76d0178ae" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/computed.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/index.html" afterPath="$PROJECT_DIR$/demo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/device.js" afterPath="$PROJECT_DIR$/lib/device.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/downloadImage.js" afterPath="$PROJECT_DIR$/lib/downloadImage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/encrypt.js" afterPath="$PROJECT_DIR$/lib/encrypt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/iframe.js" afterPath="$PROJECT_DIR$/lib/iframe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/alarm.js" afterPath="$PROJECT_DIR$/lib/alarm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/index.js" afterPath="$PROJECT_DIR$/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/login.js" afterPath="$PROJECT_DIR$/lib/login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/protocol.js" afterPath="$PROJECT_DIR$/lib/protocol.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/queue.js" afterPath="$PROJECT_DIR$/lib/queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/share.js" afterPath="$PROJECT_DIR$/lib/share.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/trash.js" afterPath="$PROJECT_DIR$/lib/trash.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/userinfo.js" afterPath="$PROJECT_DIR$/lib/userinfo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rollup.config.js" afterPath="$PROJECT_DIR$/rollup.config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,20 +24,8 @@
         <entry file="file://$PROJECT_DIR$/lib/protocol.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trash.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/trash.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -57,21 +33,80 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="139" column="48" lean-forward="false" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
+            <state relative-caret-position="285">
+              <caret line="173" column="22" lean-forward="false" selection-start-line="173" selection-start-column="22" selection-end-line="173" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#2623#2830#0" expanded="false" />
+                <element signature="e#2694#2901#0" expanded="false" />
+                <element signature="e#4017#4172#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pushview.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pushview.js">
+      <file leaf-file-name="newsapp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/newsapp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9873">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1499862809000" expanded="true" signature="30:335" ph="{...}" />
+                <marker date="1499862809000" expanded="true" signature="62:335" ph="{&quot;ui&quot;: 'docmode://'...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="remind.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/remind.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alarm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/alarm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#472#641#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iframe.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/iframe.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="share.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/share.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="copy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/copy.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -91,57 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="encrypt.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/encrypt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="device.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/device.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setting.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/setting.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iframe.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/iframe.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="329">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -158,6 +147,9 @@
       <find>copy</find>
       <find>setting</find>
       <find>pushview</find>
+      <find>uploadimage</find>
+      <find>alert</find>
+      <find>alarm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,10 +167,13 @@
         <option value="$PROJECT_DIR$/lib/copy.js" />
         <option value="$PROJECT_DIR$/lib/location.js" />
         <option value="$PROJECT_DIR$/lib/setting.js" />
-        <option value="$PROJECT_DIR$/lib/protocol.js" />
         <option value="$PROJECT_DIR$/lib/pushview.js" />
-        <option value="$PROJECT_DIR$/lib/index.js" />
         <option value="$PROJECT_DIR$/lib/uploadimage.js" />
+        <option value="$PROJECT_DIR$/lib/alert.js" />
+        <option value="$PROJECT_DIR$/lib/protocol.js" />
+        <option value="$PROJECT_DIR$/lib/index.js" />
+        <option value="$PROJECT_DIR$/lib/alarm.js" />
+        <option value="$PROJECT_DIR$/lib/remind.js" />
         <option value="$PROJECT_DIR$/demo/index.html" />
       </list>
     </option>
@@ -369,12 +364,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499691082130</updated>
-      <workItem from="1499691085099" duration="14179000" />
+      <workItem from="1499691085099" duration="23672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14179000" />
+    <option name="totallyTimeSpent" value="23672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1743" y="23" width="1559" height="979" extended-state="0" />
@@ -470,17 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/share.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="56" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-            <element signature="n#!!block;n#setShareData#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/downloadImage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -501,14 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/copy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/location.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -516,14 +492,6 @@
           <folding>
             <element signature="e#0#33#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/iframe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -557,30 +525,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/protocol.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pushview.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,13 +555,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/copy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/share.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/iframe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/newsapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9873">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1499862809000" expanded="true" signature="30:335" ph="{...}" />
+            <marker date="1499862809000" expanded="true" signature="62:335" ph="{&quot;ui&quot;: 'docmode://'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/protocol.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/alarm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#472#641#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/remind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="139" column="48" lean-forward="false" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
+        <state relative-caret-position="285">
+          <caret line="173" column="22" lean-forward="false" selection-start-line="173" selection-start-column="22" selection-end-line="173" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2623#2830#0" expanded="false" />
+            <element signature="e#2694#2901#0" expanded="false" />
+            <element signature="e#4017#4172#0" expanded="false" />
           </folding>
         </state>
       </provider>
