@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <title>客户端接口测试</title>
-  <script type="text/javascript" src="./static/newsapp.js"></script>
+  <!--<script type="text/javascript" src="./static/newsapp.min.js"></script>-->
+  <script type="text/javascript" src="http://img6.cache.netease.com/utf8/3g/util/newsapp/0.4.9/newsapp.min.js"></script>
   <style>
     body{
       padding: 50px 0 0 50px;
@@ -75,7 +76,7 @@
       b: 2,
       c: 3
     }
-    window.newsappAPI.encrypt(JSON.stringify(data), function (trashid) {
+    window.newsappAPI.encrypt(data, function (trashid) {
       alert(trashid)
     })
   }
