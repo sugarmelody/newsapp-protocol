@@ -174,4 +174,9 @@ newsappAPI.comment({
 })
 
 ```
+## 兑奖成功更新
+```
+newsappAPI.updateprofile()
+
+```
 
