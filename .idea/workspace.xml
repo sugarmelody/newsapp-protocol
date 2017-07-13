@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f5a8ff-bf9e-48c5-b74c-a7c76d0178ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pushview.js" afterPath="$PROJECT_DIR$/lib/pushview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,16 +22,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="176" column="9" lean-forward="true" selection-start-line="176" selection-start-column="9" selection-end-line="176" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="queue.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/queue.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -96,14 +85,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pushview.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pushview.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pushview.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="333">
+              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,12 +184,12 @@
         <option value="$PROJECT_DIR$/rollup.config.js" />
         <option value="$PROJECT_DIR$/lib/index.js" />
         <option value="$PROJECT_DIR$/dist/newsapp.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/share.js" />
         <option value="$PROJECT_DIR$/demo/index.html" />
         <option value="$PROJECT_DIR$/lib/encrypt.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/pushview.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -250,20 +249,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsapp-protocol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsapp-protocol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,12 +368,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499691082130</updated>
-      <workItem from="1499691085099" duration="38510000" />
+      <workItem from="1499691085099" duration="38617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38510000" />
+    <option name="totallyTimeSpent" value="38617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1743" y="23" width="1559" height="979" extended-state="0" />
@@ -564,56 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="450" column="18" lean-forward="true" selection-start-line="450" selection-start-column="18" selection-end-line="450" selection-end-column="18" />
-          <folding>
-            <marker date="1499932872000" expanded="true" signature="242:12331" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="6375:6463" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="6499:6562" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="6591:6757" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="6677:6754" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="6787:6965" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="6882:6962" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="7001:7278" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="7195:7275" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="7307:7483" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="7400:7480" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="7521:8206" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="7785:7916" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="8124:8203" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="8235:8306" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="8319:8341" ph="{&quot;invoke&quot;: invoke$1...}" />
-            <marker date="1499932872000" expanded="true" signature="8368:8503" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="8530:8615" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="8634:8703" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="8729:8812" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="8835:8919" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="8938:9014" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="9046:9141" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="9162:9235" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="9254:9323" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="9340:9568" ph="{&quot;feedback&quot;: feedback...}" />
-            <marker date="1499932872000" expanded="true" signature="9596:9650" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="9673:9965" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="9765:9949" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="10007:11562" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="10348:10708" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="10498:10703" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="10714:11560" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="10774:11538" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="10852:10903" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="11191:11505" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="11252:11312" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="11605:11944" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="11762:11791" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="11857:11941" ph="{...}" />
-            <marker date="1499932872000" expanded="true" signature="11963:12307" ph="{&quot;ui&quot;: ui...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -735,11 +670,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/pushview.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="333">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
