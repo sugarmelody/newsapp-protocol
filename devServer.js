@@ -3,7 +3,7 @@ const app = express()
 const path = require('path')
 
 app.get('/', function (req, res) {
-  res.send('Hello World2!');
+  res.send('Hello World!');
 });
 app.use('/static', express.static(__dirname + '/dist'))
 app.use(express.static(__dirname + '/demo'))

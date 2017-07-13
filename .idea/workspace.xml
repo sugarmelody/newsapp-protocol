@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f5a8ff-bf9e-48c5-b74c-a7c76d0178ae" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/otherappinfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/index2.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/index.html" afterPath="$PROJECT_DIR$/demo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/alarm.js" afterPath="$PROJECT_DIR$/lib/alarm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/comment.js" afterPath="$PROJECT_DIR$/lib/comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/copy.js" afterPath="$PROJECT_DIR$/lib/copy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/device.js" afterPath="$PROJECT_DIR$/lib/device.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/downloadImage.js" afterPath="$PROJECT_DIR$/lib/downloadImage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/encrypt.js" afterPath="$PROJECT_DIR$/lib/encrypt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/iframe.js" afterPath="$PROJECT_DIR$/lib/iframe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devServer.js" afterPath="$PROJECT_DIR$/devServer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/index.js" afterPath="$PROJECT_DIR$/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/location.js" afterPath="$PROJECT_DIR$/lib/location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/login.js" afterPath="$PROJECT_DIR$/lib/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/protocol.js" afterPath="$PROJECT_DIR$/lib/protocol.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pushview.js" afterPath="$PROJECT_DIR$/lib/pushview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/queue.js" afterPath="$PROJECT_DIR$/lib/queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/remind.js" afterPath="$PROJECT_DIR$/lib/remind.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setting.js" afterPath="$PROJECT_DIR$/lib/setting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/share.js" afterPath="$PROJECT_DIR$/lib/share.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/trash.js" afterPath="$PROJECT_DIR$/lib/trash.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ui.js" afterPath="$PROJECT_DIR$/lib/ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/uploadimage.js" afterPath="$PROJECT_DIR$/lib/uploadimage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/userinfo.js" afterPath="$PROJECT_DIR$/lib/userinfo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rollup.config.js" afterPath="$PROJECT_DIR$/rollup.config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,54 +22,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="alarm.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/alarm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="6" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="copy.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/copy.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="device.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/device.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="downloadImage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/downloadImage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="encrypt.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/encrypt.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -122,21 +56,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="408">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="336">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#15;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2716#2923#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="devServer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devServer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rollup.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rollup.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newsapp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/newsapp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="689">
+              <caret line="448" column="22" lean-forward="false" selection-start-line="448" selection-start-column="22" selection-end-line="448" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -180,7 +160,6 @@
         <option value="$PROJECT_DIR$/lib/shake.js" />
         <option value="$PROJECT_DIR$/lib/otherappinfo.js" />
         <option value="$PROJECT_DIR$/lib/alert.js" />
-        <option value="$PROJECT_DIR$/dist/newsapp.js" />
         <option value="$PROJECT_DIR$/lib/queue.js" />
         <option value="$PROJECT_DIR$/lib/iframe.js" />
         <option value="$PROJECT_DIR$/lib/alarm.js" />
@@ -202,8 +181,11 @@
         <option value="$PROJECT_DIR$/lib/updateprofile.js" />
         <option value="$PROJECT_DIR$/lib/protocol.js" />
         <option value="$PROJECT_DIR$/lib/comment.js" />
-        <option value="$PROJECT_DIR$/lib/index.js" />
+        <option value="$PROJECT_DIR$/devServer.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/rollup.config.js" />
+        <option value="$PROJECT_DIR$/dist/newsapp.js" />
+        <option value="$PROJECT_DIR$/lib/index.js" />
       </list>
     </option>
   </component>
@@ -396,12 +378,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499691082130</updated>
-      <workItem from="1499691085099" duration="34666000" />
+      <workItem from="1499691085099" duration="35412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34666000" />
+    <option name="totallyTimeSpent" value="35412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1743" y="23" width="1559" height="979" extended-state="0" />
@@ -437,14 +419,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/devServer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/shake.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -474,18 +448,6 @@
         <state relative-caret-position="216">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="128" column="38" lean-forward="false" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#15;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2716#2923#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,16 +495,6 @@
           <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/newsapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8493">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <marker date="1499930363000" expanded="true" signature="30:459" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -675,19 +627,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/index.js">
+    <entry file="file://$PROJECT_DIR$/demo/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="240">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rollup.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#15;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2716#2923#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/newsapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="448" column="22" lean-forward="false" selection-start-line="448" selection-start-column="22" selection-end-line="448" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
