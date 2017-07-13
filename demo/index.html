@@ -12,9 +12,9 @@
     }
     div{
       display: inline-block;
-      width: 150px;
+      width: 130px;
       height: 40px;
-      margin: 0 50px 20px 0;
+      margin: 0 10px 20px 0;
       line-height: 40px;
       text-align: center;
       border: 1px solid #000;
@@ -33,12 +33,12 @@
   <div onclick="share()">share</div>
   <div onclick="hideToolbar()">隐藏正文工具栏</div>
   <div onclick="modifyTitle()">修改导航栏标题</div>
-  <div onclick="button()" style="width: 100%">修改导航栏右上角的操作按钮文字</div>
+  <div onclick="button()" style="width: 300px">修改导航栏右上角的操作按钮文字</div>
   <div onclick="copy()">点击复制按纽文本</div>
   <div onclick="current()">获取位置</div>
   <div onclick="change()">切换位置</div>
   <div onclick="setting()">获取用户相关设置</div>
-  <div onclick="pushview()">跳转到指定界面(优惠券)</div>
+  <div onclick="pushview()" style="width: 300px">跳转到指定界面(优惠券)</div>
   <div onclick="uploadimage()">上传图片</div>
   <div onclick="alarm()">提醒</div>
   <div onclick="remind()">多次提醒</div>
@@ -121,12 +121,12 @@
     window.newsappAPI.copy('点击复制按纽文本')
   }
   function current() {
-    window.newsappAPI.location.current(function (info) {
+    window.newsappAPI.location('current', function (info) {
       alert(JSON.stringify(info))
     })
   }
   function change() {
-    window.newsappAPI.location.change(function (info) {
+    window.newsappAPI.location('switch', function (info) {
       alert(JSON.stringify(info))
     })
   }
@@ -139,25 +139,25 @@
     window.newsappAPI.pushview.coupon()
   }
   function uploadimage() {
-    window.newsappAPI.uploadimage.album('', '', function (url) {
+    window.newsappAPI.uploadimage({}, function (url) {
       alert(url)
     })
   }
   function alarm() {
     window.newsappAPI.alarm({
       url:'http://163.com',
-      date: '2017-07-12 21:30:00',
+      date: '2017-07-13 21:30:00',
       title: 'ddd',
       message: 'ddd',
-      type: 'enable',
+      type: 'add',
     }, function (bool) {
       alert(bool)
       window.newsappAPI.alarm({
         url:'http://163.com',
-        date: '2017-07-12 21:30:00',
+        date: '2017-07-13 21:30:00',
         title: 'ddd2222222',
         message: 'ddd33333',
-        type: 'add',
+        type: 'remove',
       }, function (bool) {
         alert(bool)
       })
@@ -173,6 +173,8 @@
       title: 'ddd3333',
       message: 'ddd333',
       type: 'add',
+    }, function (bool) {
+      alert(bool)
     })
   }
 
