@@ -1,9 +1,10 @@
 import babel from 'rollup-plugin-babel'
-//import eslint from 'rollup-plugin-eslint'
+import eslint from 'rollup-plugin-eslint'
+import uglify from 'rollup-plugin-uglify'
 
 export default {
   entry: 'lib/index.js',
-  dest: 'dist/newsapp.js', // 输出文件
+  dest: 'dist/newsapp.min.js', // 输出文件
   targets: [
     {
       //format: 'iife',
@@ -17,8 +18,10 @@ export default {
     babel({
       exclude: ['node_modules/**', 'dist/**']
     }),
-    /*eslint({
+    eslint({
       exclude: 'node_modules/!**'
-    })*/
+    }),
+    //(process.env.NODE_ENV === 'production' && uglify())
+    uglify()
   ]
-};
+}
