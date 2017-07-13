@@ -107,14 +107,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="encrypt.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/encrypt.js">
+      <file leaf-file-name=".npmignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.npmignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -368,12 +366,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499691082130</updated>
-      <workItem from="1499691085099" duration="38617000" />
+      <workItem from="1499691085099" duration="38994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38617000" />
+    <option name="totallyTimeSpent" value="38994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1743" y="23" width="1559" height="979" extended-state="0" />
@@ -675,6 +673,14 @@
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.npmignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
