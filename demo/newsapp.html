@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <title>客户端接口测试</title>
-  <!--<script type="text/javascript" src="./static/newsapp.min.js"></script>-->
-  <script type="text/javascript" src="http://img6.cache.netease.com/utf8/3g/util/newsapp/0.4.9/newsapp.min.js"></script>
+  <script type="text/javascript" src="./static/newsapp.min.js"></script>
+   <!--<script type="text/javascript" src="http://img6.cache.netease.com/utf8/3g/util/newsapp/0.5.1/newsapp.min.js"></script>-->
   <style>
     body{
       padding: 50px 0 0 50px;
@@ -43,6 +43,7 @@
   <div onclick="uploadimage()">上传图片</div>
   <div onclick="alarm()">提醒</div>
   <div onclick="remind()">多次提醒</div>
+  <div onclick="opencomment()">打开跟贴</div>
 <script>
   function device() {
     window.newsappAPI.device(function (info) {
@@ -178,7 +179,34 @@
       alert(bool)
     })
   }
+  function opencomment() {
+    window.newsappAPI.opencomment('CRB0LILE00969430')
+  }
 
+</script>
+<script>
+  (function () {
+    function studentScore() {
+      this.score = []
+      this.addScore = function (score) {
+        this.score.push(score)
+      }
+      this.reverage = function () {
+        var scores = 0
+        scores = this.score.reduce(function (score1, score2) {
+          return score1 + score2
+        })
+        return (scores / this.score.length).toFixed(1)
+      }
+    }
+    var score = new studentScore()
+    score.addScore(2)
+    console.log(score.reverage())
+    score.addScore(4)
+    console.log(score.reverage())
+
+    
+  })()
 </script>
 </body>
 
