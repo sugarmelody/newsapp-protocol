@@ -44,6 +44,9 @@
   <div onclick="alarm()">提醒</div>
   <div onclick="remind()">多次提醒</div>
   <div onclick="opencomment()">打开跟贴</div>
+  <div onclick="openArticle()">打开文章</div>
+  <div onclick="openVedio()">打开视频</div>
+  <div onclick="openPhoto()">打开图集</div>
 <script>
   function device() {
     window.newsappAPI.device(function (info) {
@@ -181,6 +184,15 @@
   }
   function opencomment() {
     window.newsappAPI.opencomment('CRB0LILE00969430')
+  }
+  function openArticle() {
+      window.newsappAPI.open('article', 'CT15B4FO0522BK7J')
+  }
+  function openVedio() {
+      window.newsappAPI.open('vedio', 'VHRQMINQ7')
+  }
+  function openPhoto() {
+      window.newsappAPI.open('photo', '130182', '0503')
   }
 
 </script>
